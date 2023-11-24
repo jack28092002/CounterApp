@@ -1,0 +1,16 @@
+.counterWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.counterValue {
+  font-size: 20rem;
+  color: #8e68b0;
+}
+
+@media (max-width: 600px) {
+  .counterValue {
+    font-size: 10rem;
+  }
+}
